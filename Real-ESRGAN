@@ -1,1 +1,4 @@
-
+!git clone https://github.com/xinntao/Real-ESRGAN.git
+%cd Real-ESRGAN
+!wget -P /content/drive/MyDrive/Projects/Hackathon/Real-ESRGAN/ https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
+!python setup.py develop
